@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Starter Kit for static HTML sites",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/veyxos/starter.git"
+  },
+  "author": "Veyxos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veyxos/starter/issues"
+  },
+  "homepage": "https://github.com/veyxos/starter#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

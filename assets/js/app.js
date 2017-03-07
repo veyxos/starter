@@ -1,4 +1,11 @@
-function ex(){
-  console.log("JavaScript Works! ┌༼▀̿ Ĺ̯▀̿༽┐");
+function ready (fn) {
+  if (document.readyState !== 'loading') {
+    fn()
+  } else {
+    document.addEventListener('DOMContentLoaded', fn)
+  }
 }
-if(document.readyState!="loading"){ex()}else{document.addEventListener("DOMContentLoaded",ex)}
+
+ready(() => {
+  console.log('JavaScript\'s working!!!1elf!')
+})
